@@ -1,0 +1,62 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "a1660fca-2707-41c4-a532-9633fd5bb87c:string:65a643773737614bea1ec3b5-6",
+    "name": "2d0e2b71-0639-462a-b9aa-b6e29218efdb:string:BUSINESS AND DATA ANALYTICS - DATA ANALYST",
+    "recipient": {
+      "name": "7bb786be-ead6-4004-be77-9566270bfc4d:string:ISURIKA SAMANMALI MABULAGE",
+      "email": "192cb432-944a-46ed-b5f0-408955906547:string:isurikasm@gmail.com"
+    },
+    "issuedOn": "fe20eaa6-cf80-4339-b082-3404ee3ca4d8:string:2024-01-16T00:00:00+08:00",
+    "graduationDate": "a9190b75-62af-478c-9e12-906b6c6a3e15:string:2023-11-25T00:00:00+08:00",
+    "issuers": [
+      {
+        "id": "20540a31-5e6a-4a78-a5bf-2b879612042c:string:did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac",
+        "issuerName": "8f7553b7-e69f-4e37-a9e9-f46f19d3bbf6:string:BCG RISE",
+        "name": "860e8de9-56a1-4ac5-bba9-fca025737a4a:string:BCG RISE",
+        "revocation": {
+          "type": "2c02bef9-31fe-4e5a-b742-cc5470b1781e:string:REVOCATION_STORE",
+          "location": "af6b06c4-b8f8-414c-bd71-1fc3c03d4ea8:string:0x0d12a3c4636c6ec266ede0d491a0d048c0f97e0f"
+        },
+        "identityProof": {
+          "type": "e196d874-7aff-4852-ab78-980d0cec01ae:string:DNS-DID",
+          "key": "4dea9883-0de3-44a5-9430-735263d36f47:string:did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac#controller",
+          "location": "9c0b896c-3dd4-4426-b7a6-834ea73e57d8:string:bcg.issuers.accredify.io"
+        }
+      }
+    ],
+    "additionalData": {
+      "extra": {
+        "certificateType": "9f6978d4-c0a0-437f-a917-50444bb401ec:string:CERTIFICATE OF PROGRAM COMPLETION WITH DISTINCTION",
+        "programName": "030c965a-85d1-4a5a-b95e-4fe956c70c62:string:Skillsfuture Career Transition Program"
+      }
+    },
+    "$template": {
+      "name": "fc829eff-4ae6-412d-b841-a479ba8d5fe2:string:BCG-2023-1",
+      "type": "6e4dbd37-fe33-40f5-afec-21bbee3898f2:string:EMBEDDED_RENDERER",
+      "url": "7abefdd7-2060-466a-b1a6-9d512715e667:string:https://render.accredify.io"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "664e4365d3e9275512c3994a2b8b3492b36f44191c69bffbe2b21abe0a65684d",
+    "proof": [
+      "0edcd943e0dfe1ec364580d6aab30447751fefd6728de4c902cfd612c845915b",
+      "23da80cfcd6952192824f6cc2b2468191faf5d47a57e50947d4b0dbdea932573",
+      "eb8641dcbec34241106a5b1889f3492baa309f4048b9bcd0fe68b51828bd542f",
+      "e92af71059efb87a1aa24ee032591b33e29a83a319e34fea5d127b049e689b94",
+      "2217928742fd09e19eb97dfc908afd4f2af4d839ecea35c19b8631de4ae50f3f"
+    ],
+    "merkleRoot": "3dc3af479a83d9d6cd6f95fce0a68edd91a17564d41cb0a4e48eb57ecd6f73ee"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2024-01-16T08:52:48.182Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac#controller",
+      "signature": "0x57b37c3f73414026cf3962d2e3c8c20ed26c143dd2687bb7baf0996505251ad61ce08b6339b7afed53a6df9467461a15999bd22ccdbf77fea8fd822c2ccbd64d1b"
+    }
+  ]
+}
